@@ -1,0 +1,25 @@
+﻿Build started 2/11/2020 9:57:25 PM.
+     1>Project "C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\HookMDL.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\HookMDL.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\HookMDL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WINDDK\7600.16385.1\inc\ddk /IC:\WINDDK\7600.16385.1\inc\api /IC:\WINDDK\7600.16385.1\inc\crt /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _X86_ /D _DDK_ /D _DEBUG /D DBG=1 /X /Gm /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yc"StdAfx.h" /Fp"Debug\HookMDL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WINDDK\7600.16385.1\inc\ddk /IC:\WINDDK\7600.16385.1\inc\api /IC:\WINDDK\7600.16385.1\inc\crt /Zi /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _CONSOLE /D _X86_ /D _DDK_ /D _DEBUG /D DBG=1 /X /Gm /MTd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yu"StdAfx.h" /Fp"Debug\HookMDL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gz /TP /analyze- /errorReport:prompt HookMDL.cpp
+         HookMDL.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\Debug\HookMDL.exe) does not match the Linker's OutputFile property value (C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\Debug\HookMDL.sys). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.exe) does not match the Linker's OutputFile property value (.sys). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\Debug\\HookMDL.sys" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\WINDDK\7600.16385.1\lib\WIN7\i386 ntoskrnl.lib hal.lib int64.lib ntstrsafe.lib exsup.lib ksecdd.lib ntdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\Debug\HookMDL.pdb" /SUBSYSTEM:NATIVE /Driver /TLBID:1 /ENTRY:"DriverEntry" /IMPLIB:"C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\Debug\HookMDL.lib" /MACHINE:X86 Debug\HookMDL.obj
+         Debug\stdafx.obj
+         HookMDL.vcxproj -> C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\Debug\HookMDL.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\HookMDL.unsuccessfulbuild".
+         Touching "Debug\HookMDL.lastbuildstate".
+     1>Done Building Project "C:\Users\JIT\Documents\Driver\HookMDL\HookMDL\HookMDL.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
